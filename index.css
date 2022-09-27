@@ -1,0 +1,66 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-size: 1.1em;
+    background-image: linear-gradient(to right, rgb(217, 167, 167), rgb(224, 220, 255));
+    /* font-family:'Quicksand' !important; */
+    background-image: url("./download.jfif");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#Form_div{
+    width:50%;
+    margin: auto ;
+    padding:0 120px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(48, 1, 30, 0.265), rgb(220, 249, 255));
+    /* box-shadow: 4px 2px 20px 5px #0b0000;0 */
+    border: solid 2px black;
+}
+h1{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+hr{
+    margin-bottom: 0;
+}
+
+input{
+    display:block;
+    width:280px;
+}
+
+.required_field{
+    color:rgb(0, 213, 255);
+}
+
+h3{
+    margin:10px 0;
+}
+
+.Inner_div{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 8px;
+}
+
+#btn_div{
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+#btn_div button{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+}
